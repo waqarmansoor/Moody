@@ -1,0 +1,9 @@
+<!-- Copyright (c) Microsoft. All rights reserved. -->
+
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="themecolor">#13d2ee</color>
+    <color name="blackcolor">#2a2929</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

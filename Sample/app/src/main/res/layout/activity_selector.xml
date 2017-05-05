@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.microsoft.projectoxford.emotionsample.Selector"
+    android:background="@drawable/background"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="MOOD:"
+            android:id="@+id/textView2"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="#000"
+            android:textColor="@color/themecolor"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/mood"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:text="ANGER"
+            android:textColor="#fff"
+            android:background="@color/themecolor"
+            android:layout_marginLeft="0dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Bollywood"
+            android:id="@+id/button"
+            android:background="#000"
+            android:textColor="@color/themecolor"
+            android:onClick="bollywood"
+            android:textSize="30dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="HOLLYWOOD"
+            android:id="@+id/button2"
+            android:background="#000"
+            android:textColor="@color/themecolor"
+            android:textSize="30dp"
+            android:onClick="hollywood"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="RANDOM"
+            android:id="@+id/button3"
+            android:background="#000"
+            android:textColor="@color/themecolor"
+            android:onClick="random"
+            android:textSize="30dp"
+            android:layout_marginTop="5dp" />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="FEEDBACK"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/themecolor"
+        android:onClick="feedback"
+        android:textColor="#000" />
+
+</LinearLayout>
